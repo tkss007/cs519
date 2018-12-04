@@ -1,0 +1,35 @@
+0. For each of the coding problems below:
+(1)
+   (a) Describe an exhaustive solution, and analyze compleixty (might be exponential).
+   first we crate two list, one is store Value and other one store the number we pick.we can put the item with the biggest value as much as we can. then we need to figure out how mach space we have and choose 2nd bigger value and find out is it ok for our big
+   (b) Describe a greedy solution, and analyze complexity.
+   first we crate two list, one is store Value and other one store the number we pick.when we put the first item, we have two choose that choose or not. so at this time, we should compare with the bag's size that how many we have and the Value we choose is bigger than the maxValue or not.
+   (c) Show a counterexample to the greedy solution.
+   we can figure out every product's unit value and put the product which has the biggest unit value first and as much as we can. then put 2nd one. in this way, it might not get the biggest value.
+   (d) Theoretically, is the top-down solution faster, or the bottom-one one faster?
+   bottom-up is faster
+   (e) Empirically, which one is faster? (Try some long random lists)
+   bottom-up
+(2)
+   (a) Describe an exhaustive solution, and analyze compleixty (might be exponential).
+      first we crate two list, one is store Value and other one store the number we pick.we can put the item with the biggest value as much as we can. then we need to figure out how mach space we have and choose 2nd bigger value and find out is it ok for our big
+   (b) Describe a greedy solution, and analyze complexity.
+   first we crate two list, one is store Value and other one store the number we pick.when we put the first item, we have two choose that choose or not. so at this time, we should compare with the both bag's size and the number of item that how many we have and the Value we choose is bigger than the maxValue or not.
+   (c) Show a counterexample to the greedy solution.
+   we can figure out every product's unit value and put the product which has the biggest unit value first and as much as we can. then put 2nd one. in this way, it might not get the biggest value.
+   (d) Theoretically, is the top-down solution faster, or the bottom-one one faster?
+   top-down is faster
+   (e) Empirically, which one is faster? (Try some long random lists)
+   if the list is very long, top-down is faster
+1. Unbounded Knapsack
+   Q: What are the time and space complexities?
+    O(n^2)
+
+2. [WILL BE GRADED]
+   Bounded Knapsack
+   Q: What are the time and space complexities?
+    O(n)
+
+3. [UPDATE: OPTIONAL]
+   Longest (Strictly) Increasing Subsequence
+   Q: What are the time and space complexities?

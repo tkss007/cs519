@@ -1,0 +1,27 @@
+0. There are two methods for building a heap from an unsorted array:
+   (1) insert each element into the heap  --- O(nlogn)
+   (2) heapify (top-down)                 --- O(n)
+
+   (a) (theoretically) Derive their time complexities.
+   (b) (empirically)   Use a long list of random numbers to show the difference in time.
+       		       What about sorted or reversely-sorted numbers?
+
+   Write your answers to (a) and (b) in report.txt.
+
+1. 
+
+   Q: What are the time complexities of these algorithms? 
+
+
+
+2. k-way mergesort (the classical mergesort is a special case where k=2).
+
+
+   Q: What is the complexity? Write down the detailed analysis in report.txt.
+	k(logk)
+
+3. [WILL BE GRADED]
+   
+ 
+   Q: What is your complexity? Write down the detailed analysis in report.txt.
+   o(n)

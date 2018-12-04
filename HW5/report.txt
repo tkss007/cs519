@@ -1,0 +1,14 @@
+0. Compare two recursive implementations of fib (naive vs. memoized).
+   (a) What's exact complexity of naive in theory?
+   (b) Let's say you know it's O(a^n); can you curve-fit to determine the approximate value of a?
+   (c) Does this value match the theoretical complexity?
+   (a)	O(2^n)
+   (b)	2
+   (c)	all most
+1.What's the complexity?
+	max_wis	O(n)
+	max_wis2 O(n)
+2.What's the complexity of this DP?
+	O(n)
+  What's the name of this famous number series?
+	Catalan Number

@@ -1,0 +1,17 @@
+(a) mergesort
+   (b) quicksort with the first element as pivot
+   (c) quicksort with randomized pivot
+   (d) selection sort
+   (e) insertion sort
+   (f) heap sort --- not covered yet (see CLRS Ch. 6)
+
+
+stable
+mergesort
+insertion sort
+heap sort
+
+not stable
+quicksort with the first element as pivot
+quicksort with randomized pivot
+selection sort

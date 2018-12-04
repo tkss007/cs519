@@ -1,0 +1,10 @@
+1(a)
+O(klogk + nlog(n+k))
+the push and pop part, we push n and pop k, so O(nlog(n+k)), and in xrange the time complexity is O(klogk) the  total time complexity is O(klogk+nlog(n+k))
+1(b)
+O(k + nlogn)
+we can reduce the xrange part by using heapify and the time complexity id  O(k), and we use quickselect to reduce time because we want to pick n  pairs in k pairs, so we can just ignore the other (k-n). So it becomes O(nlog(n+k-(k-n))) = O(nlogn)
+
+2
+in this case, we should considering the x type of coins we used.
+O(nx)   O(nx)

@@ -1,0 +1,9 @@
+1.
+the time complexities is O(n + k), because we have n node and k edge. So when we add the k edge the time complexities is O(k) and when we go though the n node the time complexities is O(n), So the total time complexities is O(n + k)
+and  the space complexities should be O(n + k)
+2.
+For program 2, we do topological sort at first. So this part's time complexities is O(n + k). And the second part,
+and the space complexities is O(n + k + n^2) = O(n^2)
+3.
+In this question, we can know the time complexities O（n^2).
+and the space complexities is O(n^2)
